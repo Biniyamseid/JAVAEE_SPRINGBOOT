@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--    <bean id="ethiotel" class="com.example.demo.ioc.Ethiotel" >-->
+<!--        <property name="operatorName" value="EthioTel Mobile Network"></property>-->
+<!--    </bean>-->
+    <bean id="ethiotel" class="com.example.demo.ioc.Ethiotel"  >
+        <constructor-arg value="EthioTel Mobile Network" />
+        <constructor-arg value="0911121314" />
+    </bean>
+<!--    <bean id="safari" class="com.example.demo.ioc.Safaricom" >-->
+<!--        <property name="operatorName" value="Safaricom Mobile Network"></property>-->
+<!--    </bean>-->
+
+</beans>
